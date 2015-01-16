@@ -15,6 +15,6 @@ class Ruby < Test::Unit::TestCase
   end
 
   def test_should_sort_a_array
-    assert_equal [1, 2, 3, 4, 5, 6], insertion_sort([5, 2, 4, 6, 1, 3])
+    assert_equal [26, 31, 41, 41, 58, 59], insertion_sort([31, 41, 59, 26, 41, 58])
   end
 end  
